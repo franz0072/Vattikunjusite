@@ -1,0 +1,805 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: Oswald;
+  font-size: 18px;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.about-us {
+  margin-top: 3%;
+  padding: 0px 10% 0px 10%;
+}
+
+i {
+  color: white;
+  font-size: 25px;
+  padding-left: 5px;
+}
+.container {
+  width: 100%;
+}
+
+border {
+  border: 2px solid black;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  z-index: 1000;
+}
+
+.navtop {
+  background-color: #2f2e5a;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-top: 1%;
+  height: 30px;
+}
+
+.navmiddle {
+  background-color: #2f2e5a;
+}
+
+.icons {
+  display: inline-block;
+}
+
+.login {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.admin {
+  border: 2px solid white;
+  width: 75%;
+  position: relative;
+}
+
+.iconss {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.logo {
+  padding-left: 15%;
+}
+.navcontent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px; /* Creates the oval effect */
+  border: none;
+  padding: 10px 20px; /* Ensures content spacing */
+  margin: auto; /* Centers horizontally */
+  position: absolute;
+  left: 47%;
+  transform: translateX(-50%); /* Adjusts exact centering */
+  z-index: 1;
+}
+
+.nav-link {
+  color: white;
+}
+
+.active {
+  color: yellow !important;
+}
+
+nav .nav-link.show {
+  color: orange !important;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: darkturquoise;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1); /* Converts icon color to white */
+}
+
+.sliders {
+  max-width: 1920px;
+  max-height: 850px;
+  margin-top: 9%;
+}
+
+.nav-logo {
+  height: 141px;
+  width: auto;
+  position: absolute;
+}
+
+.drop1 {
+  background-color: #2f2e5a;
+  border-radius: 50px; /* Creates the oval effect */
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-left: 4%; */
+  padding-right: 4%;
+}
+
+.drop2 {
+  
+  background-color: #2f2e5a;
+  border-radius: 50px; /* Creates the oval effect */
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 4%;
+  /* padding-right: 4%; */
+}
+
+h2 {
+  color: #00458e;
+}
+
+h5 {
+  color: green;
+}
+
+.about-us p,
+span {
+  color: black;
+  font-family: rubic;
+}
+
+.aboutusimg1 img {
+  width: 100%; /* Full width of the column */
+  height: 387px; /* Set desired height */
+  object-fit: cover; /* Ensures the image fills the area without distortion */
+  border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+.aboutusimg2 img {
+  width: 406px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 20px solid white;
+  left: -50%;
+  position: relative;
+  top: 43%;
+}
+
+.aboutusimg {
+  margin-top: 5%;
+  padding-left: 13%;
+  position: relative;
+}
+
+.roundimg {
+  width: 197px;
+  height: 169px;
+  border: 2px solid black;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.circle {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 100vmax;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoround {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  background: url("../images/logorund.png");
+  background-size: cover;
+  border-radius: 100vmax;
+  background-position: center;
+}
+
+.text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-family: consolas;
+  color: #000;
+  font-size: 17px;
+  animation: textRotation 8s linear infinite;
+}
+
+@keyframes textRotation {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.text span {
+  position: absolute;
+  left: 50%;
+  font-size: 1.2em;
+  transform-origin: 0 100px;
+}
+
+.short_intro {
+  display: inline-block;
+  line-height: 1.2em;
+  font-size: 0.84rem;
+  font-weight: 600;
+  text-transform: lowercase;
+  color: #00458e;
+  padding: 6px; /* Adjust horizontal padding to stretch the shape */
+  background-color: #f6ba00;
+  border: 1px solid #f6ba00;
+  border-radius: 50px; /* Higher value makes it oval */
+}
+
+.short_intro p {
+  width: none;
+}
+.readmore {
+  background-color: #00458e;
+  color: white;
+}
+
+button readmore:hover {
+  background-color: yellow;
+}
+
+.aboutusicons {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 6%;
+  padding: 0px 60px 0px 60px;
+  text-align: center;
+}
+
+.aboutusicons i {
+  color: black;
+}
+
+.aboutusicons p {
+  text-align: justify;
+  width: 90%;
+}
+
+.aboutusp {
+  text-align: justify;
+  width: 90%;
+}
+
+
+/* .banner {
+  background-color: #00458e;
+}
+
+.banner h2 {
+  color: white;
+}
+
+.banner h5 {
+  color: yellow;
+}
+
+.newsimg p {
+  color: black;
+}
+
+.card{
+  width: 43rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.facts p,h3{
+  color: black;
+}
+ */
+
+
+
+.banner h2{
+  color: white;
+}
+
+.news-section{
+  background-color: #00458e;
+}
+
+.facts .buttons{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.facts .buttons a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.facts{
+  margin-top: -14%;
+}
+
+.buttons button{
+  height: 50px;
+  background-color: #00458e;
+}
+
+.newscard i{
+  color: #00458e;
+  margin-right: 2%;
+}
+
+.newscard hr{
+  color: black;
+  height: 2px;
+}
+
+
+ /* Message Desk Section */
+ .message-desk .person-image {
+  height: 300px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 8px;
+}
+
+
+.message-desk{
+  background-color: #00458e;
+}
+
+.message-desk p, 
+.message-desk h2 {
+  color: white;
+}
+
+
+.message-desk h5{
+  color: #ffc107;
+}
+
+
+
+.message-desk blockquote{
+  color: #ffc107;
+}
+
+.zoom-shadow {
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.zoom-shadow:hover {
+ 
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+
+.facilities p{
+  color: #000;
+  text-align: justify;
+}
+
+.facility-card{
+  background-color: #ffc107;
+  height: 111px;
+  width: 233px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
+}
+
+.facility-card i{
+  color: black;
+}
+
+.facility-card:hover {
+  color: red; /* Change the color on hover */
+}
+
+.galleryp .date{
+  color: darkred;
+}
+
+
+footer{
+  background-color: #00458e;
+}
+
+footer p{
+  color: #fff;
+}
+.footer-top-box{
+  background-color: #ffc107;
+  
+}
+
+.footer-top-box h6, .footer-top-box p{
+  color: #00458e;
+}
+
+.footer-top-box i{
+  color: #000;
+}
+
+.sitmaps i{
+  color: yellow;
+  font-size: 12px;
+}
+
+
+
+.breakingnews-container { 
+  position: relative; 
+  border: 1px solid #777;  
+  background: linear-gradient(110deg, #2f2e5a 60%, #2f2e5a 60%);
+  font-family: 'Oswald', serif;
+} 
+
+.breakingnews-container, .breakingnews-container .breakingnews-headertext { 
+  padding: 7px; 
+  background-color: #fff; 
+  color: #2f2e5a;
+} 
+
+.breakingnews-headertext { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  z-index: 10; 
+  padding: 10px 10px;
+  border-right: 1px solid #777;  
+  background: #C8102E;
+  color: #fff;
+  text-shadow: 0px 1px #111;
+} 
+
+.breakingnews-marquee { 
+  line-height: 1.5; 
+  margin-left: 24%;
+} 
+
+.breakingnews-marquee p { 
+  margin: 0; 
+} 
+
+.readmore {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  background-color: #00458e; /* Initial color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  transition: color 0.5s ease-in-out;
+}
+
+/* Creating the red overlay effect */
+.readmore::before {
+  content: "Go to The Page ➞"; /* New text on hover */
+  position: absolute;
+  top: 0;
+  left: -100%;  /* Start completely outside */
+  width: 100%;
+  height: 100%;
+  background: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: left 0.5s ease-in-out;
+}
+
+/* Hover Effect */
+.readmore:hover {
+  color: white; /* Ensures text remains visible */
+}
+
+/* Moving the red background from left to right */
+.readmore:hover::before {
+  left: 0;
+}
+
+
+
+
+/* Make the image span the full width */
+.school-image {
+  width: 100vw; /* Full width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove any extra space below */
+  object-fit: cover; /* Cover the entire area without stretching */
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); /* Center the image */
+  margin-top: -14%;
+}
+
+.facilityhover:hover{
+  background-color: silver;
+}
+
+/* mobile view */
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .circle {
+    display: none;
+  }
+
+  .aboutusicons {
+    padding: 0px 0px 0px 0px;
+    display: block;
+    margin-top: 0%;
+  }
+
+  .aboutusicons p {
+    display: none;
+  }
+
+  .aboutusimg {
+    display: none;
+  }
+  .navcontent {
+    display: none;
+  }
+
+  .sliders{
+    max-width: 1920px;
+    max-height: 850px;
+    margin-top: 70%;
+  }
+
+  /* Main menu positioning */
+  .mobileview-main-nav {
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background: #fff;
+    opacity: 0;
+    z-index: -1;
+    visibility: hidden;
+    transition: all 0.375s;
+  }
+
+  .mobileview-main-nav.is-open {
+    opacity: 1;
+    z-index: 100;
+    visibility: visible;
+  }
+
+  /* Yellow band effect */
+  .mobileview-main-nav::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: -15px;
+    background: #2f2e5a;
+    transform-origin: 0 0;
+    transform: skew(-14deg) translateX(-120%);
+    transition: all 0.275s 0.1s;
+  }
+
+  .mobileview-main-nav.is-open::before {
+    transform: skew(-14deg) translateX(0);
+  }
+
+  /* Skewing effect on menu links */
+  .mobileview-main-nav ul {
+    display: inline-flex;
+    flex-direction: column;
+    height: 93%;
+    align-items: flex-end;
+    justify-content: center;
+    transform: translateX(-18%) skew(-16deg);
+  }
+
+  .mobileview-main-nav li {
+    display: block;
+    margin: 0.5rem 0;
+    text-align: right;
+    transform: skew(16deg);
+  }
+
+  /* Apparition effect on links */
+  .mobileview-main-nav a {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  .mobileview-main-nav.is-open a {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Menu links styling */
+  .mobileview-main-nav ul,
+  .mobileview-main-nav li {
+    list-style: none;
+    padding: 0;
+  }
+
+  .mobileview-main-nav a {
+    display: block;
+    padding: 12px 0;
+    color: white;
+    font-size: 1.4em;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  /* Burger button styling */
+  .mobileview-open-main-nav {
+    position: absolute;
+    top: 15px;
+    padding-top: 20px;
+    right: 15px;
+    z-index: 1000;
+    background: none;
+    border: 0;
+    cursor: pointer;
+  }
+
+  .mobileview-burger {
+    position: relative;
+    display: block;
+    width: 28px;
+    height: 4px;
+    margin: 0 auto;
+    background: url("./Assets/images/menu.png") no-repeat center center;
+    background-size: cover;
+
+    transform: skew(5deg);
+    transition: all 0.275s;
+  }
+
+  /* Toggle State for Burger */
+  .is-open .mobileview-burger {
+    transform: skew(5deg) translateY(-8px) rotate(-45deg);
+  }
+
+  .mobileview-device {
+    width: 345px;
+    height: 0px;
+    background: #fff;
+  }
+
+  .mobileview-burger-text {
+    color: white;
+    right: 460px;
+    position: absolute;
+    top: 218px;
+  }
+  .mobileview-burger i {
+   right: 489px;
+    position: absolute;
+    top: 172px;
+  }
+}
+
+@media (max-width: 400px) {
+      .mobileview-burger-text {
+    color: white;
+   right: 383px;
+    position: absolute;
+    top: 218px;
+  }
+  .mobileview-burger i {
+  right: 413px;
+    position: absolute;
+    top: 172px;
+  }
+   .sliders {
+      margin-top: 89%;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobileview-device {
+    display: none;
+  }
+  
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    20% { transform: translateY(-10%); }
+    40% { transform: translateY(0); }
+    60% { transform: translateY(-10%); }
+    80% { transform: translateY(0); }
+}
+
+.bounce-animation {
+    animation: bounce 8s infinite;
+}
+
+@keyframes flip {
+  0% {
+      transform: perspective(400px) rotateY(0);
+      animation-timing-function: ease-out;
+  }
+  40% {
+      transform: perspective(400px) translateZ(150px) rotateY(170deg);
+      animation-timing-function: ease-out;
+  }
+  50% {
+      transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+      animation-timing-function: ease-in;
+  }
+  80% {
+      transform: perspective(400px) rotateY(360deg) scale(.95);
+      animation-timing-function: ease-in;
+  }
+  100% {
+      transform: perspective(400px) scale(1);
+      animation-timing-function: ease-in;
+  }
+}
+
+.flip-animation {
+  animation: flip 2s ease infinite;
+}
+
+
+
+
+@media (max-width: 1400px) {
+      .navcontent{
+          transform: scale(0.8);
+    transition: transform 0.5s ease-in-out;
+    margin-left: -40rem;
+      }
+  }
+  
+  @media (min-width: 768px) {
+    .mobileview-device {
+      display: none;
+    }
+    
+    .about-us {
+        padding: 0px 0px 0px 0px;
+    }
+    
+    .aboutus {
+        padding-left: 5%;
+    }
+    
+    .aboutusp{
+        display: -webkit-box;
+      -webkit-line-clamp: 8; /* Limits to 2 lines */
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    
+    .aboutusimg1 img {
+        margin-left: 6%;
+    }
+    .aboutusimg2 img {
+        left: -43%;
+    }
+    
+    .facilitiesp{
+          display: -webkit-box;
+      -webkit-line-clamp: 5; /* Limits to 2 lines */
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .iconss{
+        margin-left: -10%;
+    }
+      
+  }
